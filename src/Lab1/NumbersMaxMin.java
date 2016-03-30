@@ -9,7 +9,7 @@ public class NumbersMaxMin extends ConsoleProgram {
 	public void run() {
 		int[] mid = new int[MAX_SIZE]; //Створюємо масив максимальним значенням до 20 чисел
 		int numScores = 0;
-		int max = 20;
+		long max = -250000;
 		int min = 0;
 		
 		while (true) {
