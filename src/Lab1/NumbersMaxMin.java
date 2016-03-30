@@ -4,12 +4,12 @@ import acm.program.ConsoleProgram;
 
 public class NumbersMaxMin extends ConsoleProgram {
 	private static final int CRITIKALPOINT = 0;
-	private static final int MAX_SIZE = 20;
+	private static final int MAX_SIZE = 50;
 
 	public void run() {
 		int[] mid = new int[MAX_SIZE]; //Створюємо масив максимальним значенням до 20 чисел
 		int numScores = 0;
-		int max = 20;
+		int max = 50;
 		int min = 0;
 		
 		while (true) {
